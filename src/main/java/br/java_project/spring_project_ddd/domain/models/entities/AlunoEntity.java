@@ -57,7 +57,19 @@ public class AlunoEntity {
 		this.cpf = cpf;
     }
 
-    public int getId_cliente() {
+	public AlunoEntity(int id_aluno, String nome, double cpf, int matricula, String e_mail, int telefone, String dt_cadastro ) {
+
+		this.id_aluno = id_aluno;
+		this.nome = nome;
+		this.cpf = cpf;
+		this.matricula = matricula;
+		this.e_mail = e_mail;
+		this.telefone = telefone;
+		this.dt_cadastro = dt_cadastro;
+	}
+
+
+	public int getId_cliente() {
 		return id_aluno;
 	}
 

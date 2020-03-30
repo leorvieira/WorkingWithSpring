@@ -2,6 +2,7 @@ package br.java_project.spring_project_ddd.domain.application;
 
 import br.java_project.spring_project_ddd.FakeBanco;
 import br.java_project.spring_project_ddd.domain.models.entities.AlunoEntity;
+import br.java_project.spring_project_ddd.infrastructure.repository.AlunoRepository;
 import org.springframework.stereotype.Service;
 
 import java.io.File;
@@ -15,6 +16,14 @@ import java.util.Scanner;
 public final class FirstLoad {
 
     public static void run() {
+
+/*
+        AlunoRepository alunoRepository = new AlunoRepository();
+        AlunoEntity alunoEntityx = new AlunoEntity( 1, "Roberto", 1234.0, 1111, "roberto@gmail.com", 9999, "290320");
+        alunoRepository.insertWithEntityManager( alunoEntityx );
+*/
+
+
         try {
             File myObj = new File("src/main/resources/lista_alunos.txt");
             Scanner myReader = new Scanner(myObj);
