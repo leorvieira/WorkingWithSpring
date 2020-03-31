@@ -17,11 +17,11 @@ public final class FirstLoad {
 
     public static void run() {
 
-/*
+
+
         AlunoRepository alunoRepository = new AlunoRepository();
         AlunoEntity alunoEntityx = new AlunoEntity( 1, "Roberto", 1234.0, 1111, "roberto@gmail.com", 9999, "290320");
         alunoRepository.insertWithEntityManager( alunoEntityx );
-*/
 
 
         try {
