@@ -41,3 +41,4 @@ You can run the application (a REST server) in your IDE by running class `*.Appl
 - [Spring Data JPA](https://spring.io/guides/gs/accessing-data-jpa/)
 - [Spring Data JPA Query Methods](http://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods)
 - This application implements my knowledge about layering and data access at a given point of time. Previous versions were in a 3-layer form in german under [Bank3Tier - Bankanwendung in 3 Schichten](http://public.beuth-hochschule.de/~knabe/java/bank3tier/).
+# SpringTemp
